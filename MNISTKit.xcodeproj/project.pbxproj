@@ -1,0 +1,2194 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4C0FCFF1CA7220400C57593 /* MNISTKit_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FCFE1CA7220400C57593 /* MNISTKit_iOSTests.swift */; };
+		F4C0FD011CA7220400C57593 /* MNISTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CF7CE91CA714A80058663F /* MNISTKit.framework */; };
+		F4C0FD0E1CA7222300C57593 /* MNISTKit_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FD0D1CA7222300C57593 /* MNISTKit_tvOSTests.swift */; };
+		F4C0FD101CA7222300C57593 /* MNISTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CF7D031CA714EC0058663F /* MNISTKit.framework */; };
+		F4C0FD1D1CA7223B00C57593 /* MNISTKit_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FD1C1CA7223B00C57593 /* MNISTKit_OSXTests.swift */; };
+		F4C0FD1F1CA7223B00C57593 /* MNISTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CF7CCC1CA714680058663F /* MNISTKit.framework */; };
+		F4C0FD2C1CA7227700C57593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FD2B1CA7227700C57593 /* AppDelegate.swift */; };
+		F4C0FD2E1CA7227700C57593 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FD2D1CA7227700C57593 /* ViewController.swift */; };
+		F4C0FD311CA7227700C57593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C0FD2F1CA7227700C57593 /* Main.storyboard */; };
+		F4C0FD331CA7227700C57593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C0FD321CA7227700C57593 /* Assets.xcassets */; };
+		F4C0FD361CA7227700C57593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C0FD341CA7227700C57593 /* LaunchScreen.storyboard */; };
+		F4C0FD411CA7229700C57593 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C0FD3F1CA7229700C57593 /* Interface.storyboard */; };
+		F4C0FD431CA7229700C57593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C0FD421CA7229700C57593 /* Assets.xcassets */; };
+		F4C0FD4A1CA7229700C57593 /* MNISTKit Example watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F4C0FD491CA7229700C57593 /* MNISTKit Example watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F4C0FD511CA7229700C57593 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FD501CA7229700C57593 /* InterfaceController.swift */; };
+		F4C0FD531CA7229700C57593 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FD521CA7229700C57593 /* ExtensionDelegate.swift */; };
+		F4C0FD551CA7229700C57593 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FD541CA7229700C57593 /* NotificationController.swift */; };
+		F4C0FD571CA7229700C57593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C0FD561CA7229700C57593 /* Assets.xcassets */; };
+		F4C0FD5B1CA7229700C57593 /* MNISTKit Example watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F4C0FD3D1CA7229700C57593 /* MNISTKit Example watchOS.app */; };
+		F4C0FD6B1CA722E700C57593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FD6A1CA722E700C57593 /* AppDelegate.swift */; };
+		F4C0FD6D1CA722E700C57593 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FD6C1CA722E700C57593 /* ViewController.swift */; };
+		F4C0FD6F1CA722E700C57593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C0FD6E1CA722E700C57593 /* Assets.xcassets */; };
+		F4C0FD721CA722E700C57593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C0FD701CA722E700C57593 /* Main.storyboard */; };
+		F4CF7CEC1CA714A80058663F /* MNISTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CF7CEB1CA714A80058663F /* MNISTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4CF7D1E1CA718E10058663F /* MNISTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CF7CEB1CA714A80058663F /* MNISTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4CF7D201CA718E30058663F /* MNISTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CF7CEB1CA714A80058663F /* MNISTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4CF7D211CA718E40058663F /* MNISTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CF7CEB1CA714A80058663F /* MNISTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4CF7D231CA719830058663F /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF7D221CA719830058663F /* MyTest.swift */; };
+		F4CF7D241CA719830058663F /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF7D221CA719830058663F /* MyTest.swift */; };
+		F4CF7D251CA719830058663F /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF7D221CA719830058663F /* MyTest.swift */; };
+		F4CF7D261CA719830058663F /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF7D221CA719830058663F /* MyTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4C0FD021CA7220400C57593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CF7CC11CA713D50058663F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CF7CE81CA714A80058663F;
+			remoteInfo = "MNISTKit iOS";
+		};
+		F4C0FD111CA7222300C57593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CF7CC11CA713D50058663F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CF7D021CA714EC0058663F;
+			remoteInfo = "MNISTKit tvOS";
+		};
+		F4C0FD201CA7223B00C57593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CF7CC11CA713D50058663F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CF7CCB1CA714680058663F;
+			remoteInfo = "MNISTKit OSX";
+		};
+		F4C0FD4B1CA7229700C57593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CF7CC11CA713D50058663F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4C0FD481CA7229700C57593;
+			remoteInfo = "MNISTKit Example watchOS Extension";
+		};
+		F4C0FD591CA7229700C57593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CF7CC11CA713D50058663F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4C0FD3C1CA7229700C57593;
+			remoteInfo = "MNISTKit Example watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4C0FD5F1CA7229700C57593 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F4C0FD4A1CA7229700C57593 /* MNISTKit Example watchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD631CA7229700C57593 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F4C0FD5B1CA7229700C57593 /* MNISTKit Example watchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F4C0FCFC1CA7220400C57593 /* MNISTKit iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MNISTKit iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C0FCFE1CA7220400C57593 /* MNISTKit_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNISTKit_iOSTests.swift; sourceTree = "<group>"; };
+		F4C0FD001CA7220400C57593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C0FD0B1CA7222300C57593 /* MNISTKit tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MNISTKit tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C0FD0D1CA7222300C57593 /* MNISTKit_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNISTKit_tvOSTests.swift; sourceTree = "<group>"; };
+		F4C0FD0F1CA7222300C57593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C0FD1A1CA7223B00C57593 /* MNISTKit OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MNISTKit OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C0FD1C1CA7223B00C57593 /* MNISTKit_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNISTKit_OSXTests.swift; sourceTree = "<group>"; };
+		F4C0FD1E1CA7223B00C57593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C0FD291CA7227700C57593 /* MNISTKit Example iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MNISTKit Example iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C0FD2B1CA7227700C57593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4C0FD2D1CA7227700C57593 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4C0FD301CA7227700C57593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4C0FD321CA7227700C57593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4C0FD351CA7227700C57593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4C0FD371CA7227700C57593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C0FD3D1CA7229700C57593 /* MNISTKit Example watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MNISTKit Example watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C0FD401CA7229700C57593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F4C0FD421CA7229700C57593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4C0FD441CA7229700C57593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C0FD491CA7229700C57593 /* MNISTKit Example watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MNISTKit Example watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C0FD4F1CA7229700C57593 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F4C0FD501CA7229700C57593 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F4C0FD521CA7229700C57593 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F4C0FD541CA7229700C57593 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F4C0FD561CA7229700C57593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4C0FD581CA7229700C57593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C0FD681CA722E700C57593 /* MNISTKit Example OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MNISTKit Example OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C0FD6A1CA722E700C57593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4C0FD6C1CA722E700C57593 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4C0FD6E1CA722E700C57593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4C0FD711CA722E700C57593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4C0FD731CA722E700C57593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CF7CCC1CA714680058663F /* MNISTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MNISTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CF7CE91CA714A80058663F /* MNISTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MNISTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CF7CEB1CA714A80058663F /* MNISTKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MNISTKit.h; path = Sources/MNISTKit.h; sourceTree = "<group>"; };
+		F4CF7CF61CA714D60058663F /* MNISTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MNISTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CF7D031CA714EC0058663F /* MNISTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MNISTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CF7D0D1CA715F60058663F /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
+		F4CF7D0E1CA715F60058663F /* Info-OSX.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-OSX.plist"; path = "Sources/Info-OSX.plist"; sourceTree = "<group>"; };
+		F4CF7D0F1CA715F60058663F /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "Sources/Info-tvOS.plist"; sourceTree = "<group>"; };
+		F4CF7D101CA715F60058663F /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-watchOS.plist"; path = "Sources/Info-watchOS.plist"; sourceTree = "<group>"; };
+		F4CF7D221CA719830058663F /* MyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTest.swift; path = Sources/MyTest.swift; sourceTree = "<group>"; };
+		F4CF7D271CA71C520058663F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F4CF7D281CA71C520058663F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4C0FCF91CA7220400C57593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C0FD011CA7220400C57593 /* MNISTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD081CA7222300C57593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C0FD101CA7222300C57593 /* MNISTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD171CA7223B00C57593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C0FD1F1CA7223B00C57593 /* MNISTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD261CA7227700C57593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD461CA7229700C57593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD651CA722E700C57593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7CC81CA714680058663F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7CE51CA714A80058663F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7CF21CA714D60058663F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7CFF1CA714EC0058663F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4C0FCFD1CA7220400C57593 /* MNISTKit iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4C0FCFE1CA7220400C57593 /* MNISTKit_iOSTests.swift */,
+				F4C0FD001CA7220400C57593 /* Info.plist */,
+			);
+			path = "MNISTKit iOSTests";
+			sourceTree = "<group>";
+		};
+		F4C0FD0C1CA7222300C57593 /* MNISTKit tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4C0FD0D1CA7222300C57593 /* MNISTKit_tvOSTests.swift */,
+				F4C0FD0F1CA7222300C57593 /* Info.plist */,
+			);
+			path = "MNISTKit tvOSTests";
+			sourceTree = "<group>";
+		};
+		F4C0FD1B1CA7223B00C57593 /* MNISTKit OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4C0FD1C1CA7223B00C57593 /* MNISTKit_OSXTests.swift */,
+				F4C0FD1E1CA7223B00C57593 /* Info.plist */,
+			);
+			path = "MNISTKit OSXTests";
+			sourceTree = "<group>";
+		};
+		F4C0FD2A1CA7227700C57593 /* MNISTKit Example iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4C0FD2B1CA7227700C57593 /* AppDelegate.swift */,
+				F4C0FD2D1CA7227700C57593 /* ViewController.swift */,
+				F4C0FD2F1CA7227700C57593 /* Main.storyboard */,
+				F4C0FD321CA7227700C57593 /* Assets.xcassets */,
+				F4C0FD341CA7227700C57593 /* LaunchScreen.storyboard */,
+				F4C0FD371CA7227700C57593 /* Info.plist */,
+			);
+			path = "MNISTKit Example iOS";
+			sourceTree = "<group>";
+		};
+		F4C0FD3E1CA7229700C57593 /* MNISTKit Example watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4C0FD3F1CA7229700C57593 /* Interface.storyboard */,
+				F4C0FD421CA7229700C57593 /* Assets.xcassets */,
+				F4C0FD441CA7229700C57593 /* Info.plist */,
+			);
+			path = "MNISTKit Example watchOS";
+			sourceTree = "<group>";
+		};
+		F4C0FD4D1CA7229700C57593 /* MNISTKit Example watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F4C0FD501CA7229700C57593 /* InterfaceController.swift */,
+				F4C0FD521CA7229700C57593 /* ExtensionDelegate.swift */,
+				F4C0FD541CA7229700C57593 /* NotificationController.swift */,
+				F4C0FD561CA7229700C57593 /* Assets.xcassets */,
+				F4C0FD581CA7229700C57593 /* Info.plist */,
+				F4C0FD4E1CA7229700C57593 /* Supporting Files */,
+			);
+			path = "MNISTKit Example watchOS Extension";
+			sourceTree = "<group>";
+		};
+		F4C0FD4E1CA7229700C57593 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4C0FD4F1CA7229700C57593 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4C0FD691CA722E700C57593 /* MNISTKit Example OSX */ = {
+			isa = PBXGroup;
+			children = (
+				F4C0FD6A1CA722E700C57593 /* AppDelegate.swift */,
+				F4C0FD6C1CA722E700C57593 /* ViewController.swift */,
+				F4C0FD6E1CA722E700C57593 /* Assets.xcassets */,
+				F4C0FD701CA722E700C57593 /* Main.storyboard */,
+				F4C0FD731CA722E700C57593 /* Info.plist */,
+			);
+			path = "MNISTKit Example OSX";
+			sourceTree = "<group>";
+		};
+		F4C0FD771CA7230500C57593 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F4C0FD7C1CA7232700C57593 /* watchOS */,
+				F4C0FD7B1CA7232300C57593 /* tvOS */,
+				F4C0FD7A1CA7231D00C57593 /* iOS */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F4C0FD781CA7230C00C57593 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F4C0FD791CA7231000C57593 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		F4C0FD7A1CA7231D00C57593 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F4C0FD7B1CA7232300C57593 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		F4C0FD7C1CA7232700C57593 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		F4CF7CC01CA713D50058663F = {
+			isa = PBXGroup;
+			children = (
+				F4CF7D311CA71C550058663F /* Metadata */,
+				F4CF7D151CA715FD0058663F /* Sources */,
+				F4C0FCFD1CA7220400C57593 /* MNISTKit iOSTests */,
+				F4C0FD0C1CA7222300C57593 /* MNISTKit tvOSTests */,
+				F4C0FD1B1CA7223B00C57593 /* MNISTKit OSXTests */,
+				F4C0FD2A1CA7227700C57593 /* MNISTKit Example iOS */,
+				F4C0FD3E1CA7229700C57593 /* MNISTKit Example watchOS */,
+				F4C0FD4D1CA7229700C57593 /* MNISTKit Example watchOS Extension */,
+				F4C0FD691CA722E700C57593 /* MNISTKit Example OSX */,
+				F4CF7CCD1CA714680058663F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CF7CCD1CA714680058663F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF7CCC1CA714680058663F /* MNISTKit.framework */,
+				F4CF7CE91CA714A80058663F /* MNISTKit.framework */,
+				F4CF7CF61CA714D60058663F /* MNISTKit.framework */,
+				F4CF7D031CA714EC0058663F /* MNISTKit.framework */,
+				F4C0FCFC1CA7220400C57593 /* MNISTKit iOSTests.xctest */,
+				F4C0FD0B1CA7222300C57593 /* MNISTKit tvOSTests.xctest */,
+				F4C0FD1A1CA7223B00C57593 /* MNISTKit OSXTests.xctest */,
+				F4C0FD291CA7227700C57593 /* MNISTKit Example iOS.app */,
+				F4C0FD3D1CA7229700C57593 /* MNISTKit Example watchOS.app */,
+				F4C0FD491CA7229700C57593 /* MNISTKit Example watchOS Extension.appex */,
+				F4C0FD681CA722E700C57593 /* MNISTKit Example OSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CF7D151CA715FD0058663F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F4C0FD791CA7231000C57593 /* Protocols */,
+				F4C0FD781CA7230C00C57593 /* Models */,
+				F4C0FD771CA7230500C57593 /* Extensions */,
+				F4CF7CEB1CA714A80058663F /* MNISTKit.h */,
+				F4CF7D0D1CA715F60058663F /* Info-iOS.plist */,
+				F4CF7D0E1CA715F60058663F /* Info-OSX.plist */,
+				F4CF7D0F1CA715F60058663F /* Info-tvOS.plist */,
+				F4CF7D101CA715F60058663F /* Info-watchOS.plist */,
+				F4CF7D221CA719830058663F /* MyTest.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		F4CF7D311CA71C550058663F /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF7D271CA71C520058663F /* LICENSE */,
+				F4CF7D281CA71C520058663F /* README.md */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F4CF7CC91CA714680058663F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF7D1E1CA718E10058663F /* MNISTKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7CE61CA714A80058663F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF7CEC1CA714A80058663F /* MNISTKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7CF31CA714D60058663F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF7D201CA718E30058663F /* MNISTKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7D001CA714EC0058663F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF7D211CA718E40058663F /* MNISTKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F4C0FCFB1CA7220400C57593 /* MNISTKit iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C0FD061CA7220400C57593 /* Build configuration list for PBXNativeTarget "MNISTKit iOSTests" */;
+			buildPhases = (
+				F4C0FCF81CA7220400C57593 /* Sources */,
+				F4C0FCF91CA7220400C57593 /* Frameworks */,
+				F4C0FCFA1CA7220400C57593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C0FD031CA7220400C57593 /* PBXTargetDependency */,
+			);
+			name = "MNISTKit iOSTests";
+			productName = "MNISTKit iOSTests";
+			productReference = F4C0FCFC1CA7220400C57593 /* MNISTKit iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4C0FD0A1CA7222300C57593 /* MNISTKit tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C0FD131CA7222300C57593 /* Build configuration list for PBXNativeTarget "MNISTKit tvOSTests" */;
+			buildPhases = (
+				F4C0FD071CA7222300C57593 /* Sources */,
+				F4C0FD081CA7222300C57593 /* Frameworks */,
+				F4C0FD091CA7222300C57593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C0FD121CA7222300C57593 /* PBXTargetDependency */,
+			);
+			name = "MNISTKit tvOSTests";
+			productName = "MNISTKit tvOSTests";
+			productReference = F4C0FD0B1CA7222300C57593 /* MNISTKit tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4C0FD191CA7223B00C57593 /* MNISTKit OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C0FD221CA7223B00C57593 /* Build configuration list for PBXNativeTarget "MNISTKit OSXTests" */;
+			buildPhases = (
+				F4C0FD161CA7223B00C57593 /* Sources */,
+				F4C0FD171CA7223B00C57593 /* Frameworks */,
+				F4C0FD181CA7223B00C57593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C0FD211CA7223B00C57593 /* PBXTargetDependency */,
+			);
+			name = "MNISTKit OSXTests";
+			productName = "MNISTKit OSXTests";
+			productReference = F4C0FD1A1CA7223B00C57593 /* MNISTKit OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4C0FD281CA7227700C57593 /* MNISTKit Example iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C0FD381CA7227700C57593 /* Build configuration list for PBXNativeTarget "MNISTKit Example iOS" */;
+			buildPhases = (
+				F4C0FD251CA7227700C57593 /* Sources */,
+				F4C0FD261CA7227700C57593 /* Frameworks */,
+				F4C0FD271CA7227700C57593 /* Resources */,
+				F4C0FD631CA7229700C57593 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C0FD5A1CA7229700C57593 /* PBXTargetDependency */,
+			);
+			name = "MNISTKit Example iOS";
+			productName = "MNISTKit Example iOS";
+			productReference = F4C0FD291CA7227700C57593 /* MNISTKit Example iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4C0FD3C1CA7229700C57593 /* MNISTKit Example watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C0FD601CA7229700C57593 /* Build configuration list for PBXNativeTarget "MNISTKit Example watchOS" */;
+			buildPhases = (
+				F4C0FD3B1CA7229700C57593 /* Resources */,
+				F4C0FD5F1CA7229700C57593 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C0FD4C1CA7229700C57593 /* PBXTargetDependency */,
+			);
+			name = "MNISTKit Example watchOS";
+			productName = "MNISTKit Example watchOS";
+			productReference = F4C0FD3D1CA7229700C57593 /* MNISTKit Example watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F4C0FD481CA7229700C57593 /* MNISTKit Example watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C0FD5C1CA7229700C57593 /* Build configuration list for PBXNativeTarget "MNISTKit Example watchOS Extension" */;
+			buildPhases = (
+				F4C0FD451CA7229700C57593 /* Sources */,
+				F4C0FD461CA7229700C57593 /* Frameworks */,
+				F4C0FD471CA7229700C57593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MNISTKit Example watchOS Extension";
+			productName = "MNISTKit Example watchOS Extension";
+			productReference = F4C0FD491CA7229700C57593 /* MNISTKit Example watchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		F4C0FD671CA722E700C57593 /* MNISTKit Example OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C0FD741CA722E700C57593 /* Build configuration list for PBXNativeTarget "MNISTKit Example OSX" */;
+			buildPhases = (
+				F4C0FD641CA722E700C57593 /* Sources */,
+				F4C0FD651CA722E700C57593 /* Frameworks */,
+				F4C0FD661CA722E700C57593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MNISTKit Example OSX";
+			productName = "MNISTKit Example OSX";
+			productReference = F4C0FD681CA722E700C57593 /* MNISTKit Example OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4CF7CCB1CA714680058663F /* MNISTKit OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CF7CDE1CA714680058663F /* Build configuration list for PBXNativeTarget "MNISTKit OSX" */;
+			buildPhases = (
+				F4CF7CC71CA714680058663F /* Sources */,
+				F4CF7CC81CA714680058663F /* Frameworks */,
+				F4CF7CC91CA714680058663F /* Headers */,
+				F4CF7CCA1CA714680058663F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MNISTKit OSX";
+			productName = "MNISTKit OSX";
+			productReference = F4CF7CCC1CA714680058663F /* MNISTKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4CF7CE81CA714A80058663F /* MNISTKit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CF7CEE1CA714A80058663F /* Build configuration list for PBXNativeTarget "MNISTKit iOS" */;
+			buildPhases = (
+				F4CF7CE41CA714A80058663F /* Sources */,
+				F4CF7CE51CA714A80058663F /* Frameworks */,
+				F4CF7CE61CA714A80058663F /* Headers */,
+				F4CF7CE71CA714A80058663F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MNISTKit iOS";
+			productName = "MNISTKit iOS";
+			productReference = F4CF7CE91CA714A80058663F /* MNISTKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4CF7CF51CA714D60058663F /* MNISTKit watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CF7CFB1CA714D60058663F /* Build configuration list for PBXNativeTarget "MNISTKit watchOS" */;
+			buildPhases = (
+				F4CF7CF11CA714D60058663F /* Sources */,
+				F4CF7CF21CA714D60058663F /* Frameworks */,
+				F4CF7CF31CA714D60058663F /* Headers */,
+				F4CF7CF41CA714D60058663F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MNISTKit watchOS";
+			productName = "MNISTKit watchOS";
+			productReference = F4CF7CF61CA714D60058663F /* MNISTKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4CF7D021CA714EC0058663F /* MNISTKit tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CF7D081CA714EC0058663F /* Build configuration list for PBXNativeTarget "MNISTKit tvOS" */;
+			buildPhases = (
+				F4CF7CFE1CA714EC0058663F /* Sources */,
+				F4CF7CFF1CA714EC0058663F /* Frameworks */,
+				F4CF7D001CA714EC0058663F /* Headers */,
+				F4CF7D011CA714EC0058663F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MNISTKit tvOS";
+			productName = "MNISTKit tvOS";
+			productReference = F4CF7D031CA714EC0058663F /* MNISTKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4CF7CC11CA713D50058663F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					F4C0FCFB1CA7220400C57593 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F4C0FD0A1CA7222300C57593 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F4C0FD191CA7223B00C57593 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F4C0FD281CA7227700C57593 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F4C0FD3C1CA7229700C57593 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F4C0FD481CA7229700C57593 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F4C0FD671CA722E700C57593 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F4CF7CCB1CA714680058663F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F4CF7CE81CA714A80058663F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F4CF7CF51CA714D60058663F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F4CF7D021CA714EC0058663F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F4CF7CC41CA713D50058663F /* Build configuration list for PBXProject "MNISTKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4CF7CC01CA713D50058663F;
+			productRefGroup = F4CF7CCD1CA714680058663F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4CF7CCB1CA714680058663F /* MNISTKit OSX */,
+				F4CF7CE81CA714A80058663F /* MNISTKit iOS */,
+				F4CF7CF51CA714D60058663F /* MNISTKit watchOS */,
+				F4CF7D021CA714EC0058663F /* MNISTKit tvOS */,
+				F4C0FCFB1CA7220400C57593 /* MNISTKit iOSTests */,
+				F4C0FD0A1CA7222300C57593 /* MNISTKit tvOSTests */,
+				F4C0FD191CA7223B00C57593 /* MNISTKit OSXTests */,
+				F4C0FD281CA7227700C57593 /* MNISTKit Example iOS */,
+				F4C0FD3C1CA7229700C57593 /* MNISTKit Example watchOS */,
+				F4C0FD481CA7229700C57593 /* MNISTKit Example watchOS Extension */,
+				F4C0FD671CA722E700C57593 /* MNISTKit Example OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4C0FCFA1CA7220400C57593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD091CA7222300C57593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD181CA7223B00C57593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD271CA7227700C57593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C0FD361CA7227700C57593 /* LaunchScreen.storyboard in Resources */,
+				F4C0FD331CA7227700C57593 /* Assets.xcassets in Resources */,
+				F4C0FD311CA7227700C57593 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD3B1CA7229700C57593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C0FD431CA7229700C57593 /* Assets.xcassets in Resources */,
+				F4C0FD411CA7229700C57593 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD471CA7229700C57593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C0FD571CA7229700C57593 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD661CA722E700C57593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C0FD6F1CA722E700C57593 /* Assets.xcassets in Resources */,
+				F4C0FD721CA722E700C57593 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7CCA1CA714680058663F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7CE71CA714A80058663F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7CF41CA714D60058663F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7D011CA714EC0058663F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4C0FCF81CA7220400C57593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C0FCFF1CA7220400C57593 /* MNISTKit_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD071CA7222300C57593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C0FD0E1CA7222300C57593 /* MNISTKit_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD161CA7223B00C57593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C0FD1D1CA7223B00C57593 /* MNISTKit_OSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD251CA7227700C57593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C0FD2E1CA7227700C57593 /* ViewController.swift in Sources */,
+				F4C0FD2C1CA7227700C57593 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD451CA7229700C57593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C0FD551CA7229700C57593 /* NotificationController.swift in Sources */,
+				F4C0FD531CA7229700C57593 /* ExtensionDelegate.swift in Sources */,
+				F4C0FD511CA7229700C57593 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C0FD641CA722E700C57593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C0FD6D1CA722E700C57593 /* ViewController.swift in Sources */,
+				F4C0FD6B1CA722E700C57593 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7CC71CA714680058663F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF7D231CA719830058663F /* MyTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7CE41CA714A80058663F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF7D241CA719830058663F /* MyTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7CF11CA714D60058663F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF7D251CA719830058663F /* MyTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF7CFE1CA714EC0058663F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF7D261CA719830058663F /* MyTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4C0FD031CA7220400C57593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CF7CE81CA714A80058663F /* MNISTKit iOS */;
+			targetProxy = F4C0FD021CA7220400C57593 /* PBXContainerItemProxy */;
+		};
+		F4C0FD121CA7222300C57593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CF7D021CA714EC0058663F /* MNISTKit tvOS */;
+			targetProxy = F4C0FD111CA7222300C57593 /* PBXContainerItemProxy */;
+		};
+		F4C0FD211CA7223B00C57593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CF7CCB1CA714680058663F /* MNISTKit OSX */;
+			targetProxy = F4C0FD201CA7223B00C57593 /* PBXContainerItemProxy */;
+		};
+		F4C0FD4C1CA7229700C57593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4C0FD481CA7229700C57593 /* MNISTKit Example watchOS Extension */;
+			targetProxy = F4C0FD4B1CA7229700C57593 /* PBXContainerItemProxy */;
+		};
+		F4C0FD5A1CA7229700C57593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4C0FD3C1CA7229700C57593 /* MNISTKit Example watchOS */;
+			targetProxy = F4C0FD591CA7229700C57593 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4C0FD2F1CA7227700C57593 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C0FD301CA7227700C57593 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4C0FD341CA7227700C57593 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C0FD351CA7227700C57593 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F4C0FD3F1CA7229700C57593 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C0FD401CA7229700C57593 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		F4C0FD701CA722E700C57593 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C0FD711CA722E700C57593 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4C0FD041CA7220400C57593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MNISTKit iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4C0FD051CA7220400C57593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MNISTKit iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4C0FD141CA7222300C57593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MNISTKit tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		F4C0FD151CA7222300C57593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MNISTKit tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4C0FD231CA7223B00C57593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MNISTKit OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4C0FD241CA7223B00C57593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MNISTKit OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4C0FD391CA7227700C57593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MNISTKit Example iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-Example-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4C0FD3A1CA7227700C57593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MNISTKit Example iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-Example-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4C0FD5D1CA7229700C57593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MNISTKit Example watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-Example-iOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		F4C0FD5E1CA7229700C57593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MNISTKit Example watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-Example-iOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		F4C0FD611CA7229700C57593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBSC_MODULE = MNISTKit_Example_watchOS_Extension;
+				INFOPLIST_FILE = "MNISTKit Example watchOS/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-Example-iOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		F4C0FD621CA7229700C57593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBSC_MODULE = MNISTKit_Example_watchOS_Extension;
+				INFOPLIST_FILE = "MNISTKit Example watchOS/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-Example-iOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		F4C0FD751CA722E700C57593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MNISTKit Example OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-Example-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4C0FD761CA722E700C57593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MNISTKit Example OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-Example-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4CF7CC51CA713D50058663F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+			};
+			name = Debug;
+		};
+		F4CF7CC61CA713D50058663F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+			};
+			name = Release;
+		};
+		F4CF7CDF1CA714680058663F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-OSX.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-OSX";
+				PRODUCT_NAME = MNISTKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4CF7CE01CA714680058663F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-OSX.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-OSX";
+				PRODUCT_NAME = MNISTKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4CF7CEF1CA714A80058663F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-iOS";
+				PRODUCT_NAME = MNISTKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F4CF7CF01CA714A80058663F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-iOS";
+				PRODUCT_NAME = MNISTKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		F4CF7CFC1CA714D60058663F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-watchOS";
+				PRODUCT_NAME = MNISTKit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F4CF7CFD1CA714D60058663F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-watchOS";
+				PRODUCT_NAME = MNISTKit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		F4CF7D091CA714EC0058663F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-tvOS";
+				PRODUCT_NAME = MNISTKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F4CF7D0A1CA714EC0058663F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "simonlee.MNISTKit-tvOS";
+				PRODUCT_NAME = MNISTKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4C0FD061CA7220400C57593 /* Build configuration list for PBXNativeTarget "MNISTKit iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C0FD041CA7220400C57593 /* Debug */,
+				F4C0FD051CA7220400C57593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4C0FD131CA7222300C57593 /* Build configuration list for PBXNativeTarget "MNISTKit tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C0FD141CA7222300C57593 /* Debug */,
+				F4C0FD151CA7222300C57593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4C0FD221CA7223B00C57593 /* Build configuration list for PBXNativeTarget "MNISTKit OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C0FD231CA7223B00C57593 /* Debug */,
+				F4C0FD241CA7223B00C57593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4C0FD381CA7227700C57593 /* Build configuration list for PBXNativeTarget "MNISTKit Example iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C0FD391CA7227700C57593 /* Debug */,
+				F4C0FD3A1CA7227700C57593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4C0FD5C1CA7229700C57593 /* Build configuration list for PBXNativeTarget "MNISTKit Example watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C0FD5D1CA7229700C57593 /* Debug */,
+				F4C0FD5E1CA7229700C57593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4C0FD601CA7229700C57593 /* Build configuration list for PBXNativeTarget "MNISTKit Example watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C0FD611CA7229700C57593 /* Debug */,
+				F4C0FD621CA7229700C57593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4C0FD741CA722E700C57593 /* Build configuration list for PBXNativeTarget "MNISTKit Example OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C0FD751CA722E700C57593 /* Debug */,
+				F4C0FD761CA722E700C57593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4CF7CC41CA713D50058663F /* Build configuration list for PBXProject "MNISTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF7CC51CA713D50058663F /* Debug */,
+				F4CF7CC61CA713D50058663F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CF7CDE1CA714680058663F /* Build configuration list for PBXNativeTarget "MNISTKit OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF7CDF1CA714680058663F /* Debug */,
+				F4CF7CE01CA714680058663F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CF7CEE1CA714A80058663F /* Build configuration list for PBXNativeTarget "MNISTKit iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF7CEF1CA714A80058663F /* Debug */,
+				F4CF7CF01CA714A80058663F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CF7CFB1CA714D60058663F /* Build configuration list for PBXNativeTarget "MNISTKit watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF7CFC1CA714D60058663F /* Debug */,
+				F4CF7CFD1CA714D60058663F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CF7D081CA714EC0058663F /* Build configuration list for PBXNativeTarget "MNISTKit tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF7D091CA714EC0058663F /* Debug */,
+				F4CF7D0A1CA714EC0058663F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4CF7CC11CA713D50058663F /* Project object */;
+}
