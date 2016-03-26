@@ -6,6 +6,6 @@
 //
 //
 
-func hello() -> String {
+public func hello() -> String {
     return "Hello from MNISTKit"
 }
