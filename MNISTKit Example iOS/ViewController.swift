@@ -14,7 +14,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        trainImage()
+        let (trainImage, trainLabel, testImage, testLabel) = loadData()!
+        print(trainImage.count)
+        print(trainLabel.count)
+        print(testImage.count)
+        print(testLabel.count)
     }
 
     override func didReceiveMemoryWarning() {
