@@ -11,4 +11,4 @@ env:
     - DESTINATION="OS=9.3,name=iPhone 6"          SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"
     - DESTINATION="arch=x86_64"                   SCHEME="$OSX_FRAMEWORK_SCHEME"     SDK="$OSX_SDK"
 script:
-    - gym --scheme $SCHEME --destination $DESTINATION
+    - gym --scheme "$SCHEME" --destination "$DESTINATION"
