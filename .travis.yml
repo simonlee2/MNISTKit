@@ -8,8 +8,7 @@ env:
     - IOS_FRAMEWORK_SCHEME="MNISTKit iOS"
     - OSX_FRAMEWORK_SCHEME="MNISTKit OSX"
     matrix:
-        - DESTINATION="OS=9.3,name=iPhone 6"          SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"     SDK="$IOS_SDK"
-        - DESTINATION="arch=x86_64"                   SCHEME="$OSX_FRAMEWORK_SCHEME"     SDK="$OSX_SDK"
+    - DESTINATION="OS=9.3,name=iPhone 6"          SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"
+    - DESTINATION="arch=x86_64"                   SCHEME="$OSX_FRAMEWORK_SCHEME"     SDK="$OSX_SDK"
 script:
-    - echo $SCHEME
     - gym --scheme $SCHEME --destination $DESTINATION
