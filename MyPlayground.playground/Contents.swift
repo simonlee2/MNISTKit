@@ -1,11 +1,11 @@
 //: Playground - noun: a place where people can play
 @testable import MNISTKit
 
-let (trainImages, trainLabels, testImages, testLabels) = loadData()!
-trainImages.count
-trainLabels.count
-testImages.count
-testLabels.count
+//let (trainImages, trainLabels, testImages, testLabels) = loadData()!
+//trainImages.count
+//trainLabels.count
+//testImages.count
+//testLabels.count
 
 //class Network {
 //    var layers: Int {
@@ -26,3 +26,7 @@ testLabels.count
 //        self.sizes = sizes
 //    }
 //}
+
+struct NDArray<Double> {
+    
+}
