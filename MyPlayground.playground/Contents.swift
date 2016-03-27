@@ -2,5 +2,4 @@
 
 @testable import MNISTKit
 
-hello()
-    
+loadData()

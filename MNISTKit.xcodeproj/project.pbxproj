@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4BB40421CA747C200908651 /* t10k-images-idx3-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB403F1CA747C200908651 /* t10k-images-idx3-ubyte */; };
+		F4BB40431CA747C200908651 /* t10k-images-idx3-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB403F1CA747C200908651 /* t10k-images-idx3-ubyte */; };
+		F4BB40441CA747C200908651 /* t10k-images-idx3-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB403F1CA747C200908651 /* t10k-images-idx3-ubyte */; };
+		F4BB40451CA747C200908651 /* t10k-images-idx3-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB403F1CA747C200908651 /* t10k-images-idx3-ubyte */; };
+		F4BB40461CA747C200908651 /* t10k-labels-idx1-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB40401CA747C200908651 /* t10k-labels-idx1-ubyte */; };
+		F4BB40471CA747C200908651 /* t10k-labels-idx1-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB40401CA747C200908651 /* t10k-labels-idx1-ubyte */; };
+		F4BB40481CA747C200908651 /* t10k-labels-idx1-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB40401CA747C200908651 /* t10k-labels-idx1-ubyte */; };
+		F4BB40491CA747C200908651 /* t10k-labels-idx1-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB40401CA747C200908651 /* t10k-labels-idx1-ubyte */; };
+		F4BB404A1CA747C200908651 /* train-labels-idx1-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB40411CA747C200908651 /* train-labels-idx1-ubyte */; };
+		F4BB404B1CA747C200908651 /* train-labels-idx1-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB40411CA747C200908651 /* train-labels-idx1-ubyte */; };
+		F4BB404C1CA747C200908651 /* train-labels-idx1-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB40411CA747C200908651 /* train-labels-idx1-ubyte */; };
+		F4BB404D1CA747C200908651 /* train-labels-idx1-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB40411CA747C200908651 /* train-labels-idx1-ubyte */; };
+		F4BB404F1CA7481A00908651 /* train-images-idx3-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB404E1CA7481A00908651 /* train-images-idx3-ubyte */; };
+		F4BB40501CA7481A00908651 /* train-images-idx3-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB404E1CA7481A00908651 /* train-images-idx3-ubyte */; };
+		F4BB40511CA7481A00908651 /* train-images-idx3-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB404E1CA7481A00908651 /* train-images-idx3-ubyte */; };
+		F4BB40521CA7481A00908651 /* train-images-idx3-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB404E1CA7481A00908651 /* train-images-idx3-ubyte */; };
+		F4BB40551CA74A1500908651 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF7D221CA719830058663F /* MyTest.swift */; };
+		F4BB40561CA74D9100908651 /* t10k-images-idx3-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB403F1CA747C200908651 /* t10k-images-idx3-ubyte */; };
+		F4BB40571CA74D9400908651 /* t10k-labels-idx1-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB40401CA747C200908651 /* t10k-labels-idx1-ubyte */; };
+		F4BB40581CA74D9600908651 /* train-labels-idx1-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB40411CA747C200908651 /* train-labels-idx1-ubyte */; };
+		F4BB40591CA74D9B00908651 /* train-images-idx3-ubyte in Resources */ = {isa = PBXBuildFile; fileRef = F4BB404E1CA7481A00908651 /* train-images-idx3-ubyte */; };
 		F4C0FCFF1CA7220400C57593 /* MNISTKit_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FCFE1CA7220400C57593 /* MNISTKit_iOSTests.swift */; };
 		F4C0FD011CA7220400C57593 /* MNISTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CF7CE91CA714A80058663F /* MNISTKit.framework */; };
 		F4C0FD0E1CA7222300C57593 /* MNISTKit_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FD0D1CA7222300C57593 /* MNISTKit_tvOSTests.swift */; };
@@ -104,6 +125,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F4BB403F1CA747C200908651 /* t10k-images-idx3-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "t10k-images-idx3-ubyte"; sourceTree = "<group>"; };
+		F4BB40401CA747C200908651 /* t10k-labels-idx1-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "t10k-labels-idx1-ubyte"; sourceTree = "<group>"; };
+		F4BB40411CA747C200908651 /* train-labels-idx1-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-labels-idx1-ubyte"; sourceTree = "<group>"; };
+		F4BB404E1CA7481A00908651 /* train-images-idx3-ubyte */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-images-idx3-ubyte"; sourceTree = "<group>"; };
 		F4C0FCFC1CA7220400C57593 /* MNISTKit iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MNISTKit iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C0FCFE1CA7220400C57593 /* MNISTKit_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNISTKit_iOSTests.swift; sourceTree = "<group>"; };
 		F4C0FD001CA7220400C57593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -228,6 +253,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4BB40531CA7493E00908651 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB403F1CA747C200908651 /* t10k-images-idx3-ubyte */,
+				F4BB40401CA747C200908651 /* t10k-labels-idx1-ubyte */,
+				F4BB40411CA747C200908651 /* train-labels-idx1-ubyte */,
+				F4BB404E1CA7481A00908651 /* train-images-idx3-ubyte */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		F4C0FCFD1CA7220400C57593 /* MNISTKit iOSTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -359,6 +395,7 @@
 		F4CF7CC01CA713D50058663F = {
 			isa = PBXGroup;
 			children = (
+				F4BB40531CA7493E00908651 /* Resources */,
 				F4CF7D311CA71C550058663F /* Metadata */,
 				F4CF7D151CA715FD0058663F /* Sources */,
 				F4C0FCFD1CA7220400C57593 /* MNISTKit iOSTests */,
@@ -747,8 +784,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BB40591CA74D9B00908651 /* train-images-idx3-ubyte in Resources */,
+				F4BB40561CA74D9100908651 /* t10k-images-idx3-ubyte in Resources */,
 				F4C0FD361CA7227700C57593 /* LaunchScreen.storyboard in Resources */,
 				F4C0FD331CA7227700C57593 /* Assets.xcassets in Resources */,
+				F4BB40571CA74D9400908651 /* t10k-labels-idx1-ubyte in Resources */,
+				F4BB40581CA74D9600908651 /* train-labels-idx1-ubyte in Resources */,
 				F4C0FD311CA7227700C57593 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -783,6 +824,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BB40421CA747C200908651 /* t10k-images-idx3-ubyte in Resources */,
+				F4BB40461CA747C200908651 /* t10k-labels-idx1-ubyte in Resources */,
+				F4BB404A1CA747C200908651 /* train-labels-idx1-ubyte in Resources */,
+				F4BB404F1CA7481A00908651 /* train-images-idx3-ubyte in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,6 +835,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BB40431CA747C200908651 /* t10k-images-idx3-ubyte in Resources */,
+				F4BB40471CA747C200908651 /* t10k-labels-idx1-ubyte in Resources */,
+				F4BB404B1CA747C200908651 /* train-labels-idx1-ubyte in Resources */,
+				F4BB40501CA7481A00908651 /* train-images-idx3-ubyte in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -797,6 +846,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BB40441CA747C200908651 /* t10k-images-idx3-ubyte in Resources */,
+				F4BB40481CA747C200908651 /* t10k-labels-idx1-ubyte in Resources */,
+				F4BB404C1CA747C200908651 /* train-labels-idx1-ubyte in Resources */,
+				F4BB40511CA7481A00908651 /* train-images-idx3-ubyte in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -804,6 +857,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BB40451CA747C200908651 /* t10k-images-idx3-ubyte in Resources */,
+				F4BB40491CA747C200908651 /* t10k-labels-idx1-ubyte in Resources */,
+				F4BB404D1CA747C200908651 /* train-labels-idx1-ubyte in Resources */,
+				F4BB40521CA7481A00908651 /* train-images-idx3-ubyte in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,6 +897,7 @@
 			files = (
 				F4C0FD2E1CA7227700C57593 /* ViewController.swift in Sources */,
 				F4C0FD2C1CA7227700C57593 /* AppDelegate.swift in Sources */,
+				F4BB40551CA74A1500908651 /* MyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2094,6 +2152,7 @@
 				F4C0FD051CA7220400C57593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4C0FD131CA7222300C57593 /* Build configuration list for PBXNativeTarget "MNISTKit tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -2102,6 +2161,7 @@
 				F4C0FD151CA7222300C57593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4C0FD221CA7223B00C57593 /* Build configuration list for PBXNativeTarget "MNISTKit OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -2110,6 +2170,7 @@
 				F4C0FD241CA7223B00C57593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4C0FD381CA7227700C57593 /* Build configuration list for PBXNativeTarget "MNISTKit Example iOS" */ = {
 			isa = XCConfigurationList;
@@ -2118,6 +2179,7 @@
 				F4C0FD3A1CA7227700C57593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4C0FD5C1CA7229700C57593 /* Build configuration list for PBXNativeTarget "MNISTKit Example watchOS Extension" */ = {
 			isa = XCConfigurationList;
@@ -2126,6 +2188,7 @@
 				F4C0FD5E1CA7229700C57593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4C0FD601CA7229700C57593 /* Build configuration list for PBXNativeTarget "MNISTKit Example watchOS" */ = {
 			isa = XCConfigurationList;
@@ -2134,6 +2197,7 @@
 				F4C0FD621CA7229700C57593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4C0FD741CA722E700C57593 /* Build configuration list for PBXNativeTarget "MNISTKit Example OSX" */ = {
 			isa = XCConfigurationList;
@@ -2142,6 +2206,7 @@
 				F4C0FD761CA722E700C57593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4CF7CC41CA713D50058663F /* Build configuration list for PBXProject "MNISTKit" */ = {
 			isa = XCConfigurationList;
